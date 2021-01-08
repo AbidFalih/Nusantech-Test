@@ -144,7 +144,6 @@ rl.question("Please type the length of the maze (int) = ", (length) => {
           }
         } else if (xPos2 - 1 == -1) {
           valueDirrection2 = (valueDirrection2 + 1) % 4;
-          valueDirrection2 = (valueDirrection2 + 1) % 4;
         }
         xPos2--;
         break;
